@@ -1,5 +1,8 @@
+
+
 body {
-    font-family: 'Source Code Pro', monospace, 'zen-maru-gothic';
+    font-family: 'Source Code Pro', monospace, 'zen-maru-gothic-medium', 'zen-maru-gothic-black', sans-serif;
+    padding: 2em;
 }
 
 menu {
@@ -7,16 +10,15 @@ menu {
     padding: 0;
 }
 
-a{ text-decoration: none; color: #22a4fa; }
+a{ text-decoration: none; color: #599fce; }
 
-.bluesky { color: #22a4fa; }
-.pixiv { color: #5bbdff; }
-.tumblr { color: #3e637c; }
-.misskey { color: #80e247; }
-.instagram { color: #e452b8; }
-.youtube { color: #c01010; }
-.x { color: #131313; }
-
+.bluesky { color: #509ccf; }
+.pixiv { color: #8ccada; }
+.tumblr { color: #659497; }
+.misskey { color: #9dce81; }
+.instagram { color: #d393c0; }
+.youtube { color: #a74c4c; }
+.x { color: #222222; }
 
 .zen-maru-gothic-medium {
   font-family: "Zen Maru Gothic", sans-serif;
@@ -28,4 +30,9 @@ a{ text-decoration: none; color: #22a4fa; }
   font-family: "Zen Maru Gothic", sans-serif;
   font-weight: 900;
   font-style: normal;
+}
+
+.image{
+    max-width: 800px;
+    height: auto;
 }
