@@ -1,8 +1,13 @@
-
+header{
+    margin-top: 40pt;
+    margin-bottom: 20pt;
+}
 
 body {
     font-family: 'Source Code Pro', monospace, 'zen-maru-gothic-medium', 'zen-maru-gothic-black', sans-serif;
-    padding: 2em;
+    font-size: 12pt;
+    width: 600pt;
+    margin: 0 auto;
 }
 
 menu {
@@ -10,7 +15,7 @@ menu {
     padding: 0;
 }
 
-a{ text-decoration: none; color: #599fce; }
+a{ text-decoration: none; color: #599fce;}
 
 .bluesky { color: #509ccf; }
 .pixiv { color: #8ccada; }
@@ -33,6 +38,6 @@ a{ text-decoration: none; color: #599fce; }
 }
 
 .image{
-    max-width: 800px;
+    max-width: 600pt;
     height: auto;
 }
