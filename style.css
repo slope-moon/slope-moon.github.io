@@ -1,3 +1,31 @@
 body {
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Source Code Pro', monospace, 'zen-maru-gothic';
+}
+
+menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+a{ text-decoration: none; color: #22a4fa; }
+
+.bluesky { color: #22a4fa; }
+.pixiv { color: #5bbdff; }
+.tumblr { color: #3e637c; }
+.misskey { color: #80e247; }
+.instagram { color: #e452b8; }
+.youtube { color: #c01010; }
+.x { color: #131313; }
+
+
+.zen-maru-gothic-medium {
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.zen-maru-gothic-black {
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-weight: 900;
+  font-style: normal;
 }
