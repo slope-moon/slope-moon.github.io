@@ -1,6 +1,10 @@
 header{
-	margin-top: 40pt;
+	margin-top: 20pt;
 	margin-bottom: 20pt;
+    a{
+        color: #cfcfcf;
+        padding: 1em;
+    }
 }
 
 body {
@@ -20,7 +24,7 @@ menu {
 /*リンクのスタイル*/
 a{ 
     text-decoration: none;
-    color: #599fce;
+    color: #6cc8ec;
 }
 a:before{ content: "["; }
 a:after{ content: "]"; }
@@ -41,7 +45,7 @@ a:after{ content: "]"; }
 
 @media (orientation: portrait) {
     header{
-        margin-top: 60pt;
+        margin-top: 40pt;
         margin-bottom: 30pt;
     }
 	body{
