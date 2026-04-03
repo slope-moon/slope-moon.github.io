@@ -18,13 +18,13 @@ menu {
 a{ text-decoration: none; color: #599fce;}
 
 .bluesky { color: #509ccf; }
-.pixiv { color: #8ccada; }
-.tumblr { color: #659497; }
+.pixiv { color: #75bdd3; }
+.tumblr { color: #7cb8ae; }
 .misskey { color: #9dce81; }
 .soundcloud { color: #dda374; }
-.instagram { color: #d393c0; }
-.youtube { color: #a74c4c; }
-.x { color: #222222; }
+.youtube { color: #d47a7a; }
+.instagram { color: #d684c2; }
+.x { color: #555555; }
 
 .image{
     max-width: 600pt;
