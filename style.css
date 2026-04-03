@@ -4,14 +4,14 @@ header{
 }
 
 body {
-    font-family: 'Source Code Pro', monospace, 'zen-maru-gothic-medium', 'zen-maru-gothic-black', sans-serif;
-    font-size: 12pt;
+    font-family: 'Fredoka', 'Zen Maru Gothic', sans-serif;
+    font-size: 18pt;
     width: 600pt;
     margin: 0 auto;
 }
 
 menu {
-    list-style-type: none;
+    list-style-type: none;;
     padding: 0;
 }
 
@@ -21,10 +21,36 @@ a{ text-decoration: none; color: #599fce;}
 .pixiv { color: #8ccada; }
 .tumblr { color: #659497; }
 .misskey { color: #9dce81; }
+.soundcloud { color: #dda374; }
 .instagram { color: #d393c0; }
 .youtube { color: #a74c4c; }
 .x { color: #222222; }
 
+.image{
+    max-width: 600pt;
+    height: auto;
+}
+
+
+/* フォント定義 */
+
+.fredoka-medium {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.fredoka-black {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 .zen-maru-gothic-medium {
   font-family: "Zen Maru Gothic", sans-serif;
   font-weight: 500;
@@ -35,9 +61,4 @@ a{ text-decoration: none; color: #599fce;}
   font-family: "Zen Maru Gothic", sans-serif;
   font-weight: 900;
   font-style: normal;
-}
-
-.image{
-    max-width: 600pt;
-    height: auto;
 }
