@@ -1,21 +1,29 @@
 header{
-    margin-top: 40pt;
-    margin-bottom: 20pt;
+	margin-top: 40pt;
+	margin-bottom: 20pt;
 }
 
 body {
-    font-family: 'Fredoka', 'Zen Maru Gothic', sans-serif;
-    font-size: 18pt;
-    width: 600pt;
-    margin: 0 auto;
+	font-family: 'Fredoka', 'Zen Maru Gothic', sans-serif;
+	font-size: 18pt;
+	width: 600pt;
+	margin: 0 auto;
 }
 
 menu {
-    list-style-type: none;;
-    padding: 0;
+	list-style-type: none;;
+	padding: 0;
 }
 
-a{ text-decoration: none; color: #599fce;}
+
+
+/*リンクのスタイル*/
+a{ 
+    text-decoration: none;
+    color: #599fce;
+}
+a:before{ content: "["; }
+a:after{ content: "]"; }
 
 .bluesky { color: #509ccf; }
 .pixiv { color: #75bdd3; }
@@ -27,38 +35,22 @@ a{ text-decoration: none; color: #599fce;}
 .x { color: #555555; }
 
 .image{
-    max-width: 600pt;
-    height: auto;
+	max-width: 600pt;
+	height: auto;
 }
 
-
-/* フォント定義 */
-
-.fredoka-medium {
-  font-family: "Fredoka", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
-
-.fredoka-black {
-  font-family: "Fredoka", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
-.zen-maru-gothic-medium {
-  font-family: "Zen Maru Gothic", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.zen-maru-gothic-black {
-  font-family: "Zen Maru Gothic", sans-serif;
-  font-weight: 900;
-  font-style: normal;
+@media (orientation: portrait) {
+    header{
+        margin-top: 60pt;
+        margin-bottom: 30pt;
+    }
+	body{
+		font-size: 24pt;
+        width: auto;
+        margin: auto;
+	}
+    .image{
+        max-width: 100%;
+        height: auto;
+    }
 }
