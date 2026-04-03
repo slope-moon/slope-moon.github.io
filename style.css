@@ -31,8 +31,8 @@ a:after{ content: "]"; }
 
 .bluesky { color: #509ccf; }
 .pixiv { color: #75bdd3; }
-.tumblr { color: #7cb8ae; }
-.misskey { color: #9dce81; }
+.tumblr { color: #7cafb8; }
+.misskey { color: #b3ce81; }
 .soundcloud { color: #dda374; }
 .youtube { color: #d47a7a; }
 .instagram { color: #d684c2; }
@@ -58,7 +58,7 @@ a:after{ content: "]"; }
     }
 	body{
 		font-size: 24pt;
-        width: auto;
+        width: 90%;
         margin: auto;
 	}
     .image{
