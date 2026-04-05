@@ -51,13 +51,16 @@ a:after{ content: "]"; }
 .nabla:before{ content: none; }
 .nabla:after{ content: none; }
 
+
+/*スマホ用のスタイル*/
+
 @media (orientation: portrait) {
     header{
         margin-top: 40pt;
         margin-bottom: 30pt;
     }
 	body{
-		font-size: 24pt;
+		font-size: 21pt;
         width: 90%;
         margin: auto;
 	}
