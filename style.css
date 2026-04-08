@@ -23,11 +23,12 @@ body{
 
 ul{
     margin: 0.5em;
+    padding-left: 1.5em;
 }
 
 
 /*リンクのスタイル*/
-a{ color: #76ccee; }
+a{ color: #45aed8; }
 
 .social_links{ 
     font-weight: bold;
@@ -47,7 +48,6 @@ a{ color: #76ccee; }
 .social_links.x { color: #505050; }
 
 
-
 .image{
 	max-width: 600pt;
 	height: auto;
@@ -61,12 +61,10 @@ a{ color: #76ccee; }
 
 
 .frame{
-    border: 3pt solid #f5f5f5;
-    max-width: 600pt;
+    background: #f6f9fa;
     border-radius: 12pt;
-    padding: 0;
+    padding: 0.2em;
 }
-
 .text_in_frame{
     font-size: 12pt;
 }
@@ -86,10 +84,6 @@ a{ color: #76ccee; }
     .image{
         max-width: 100%;
         height: auto;
-    }
-
-    .frame{
-        max-width: 100%;
     }
     .text_in_frame{
         font-size: 14pt;
