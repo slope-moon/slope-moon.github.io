@@ -16,14 +16,14 @@ nav{
     }
 }
 
-body {
+body{
 	font-family: 'Fredoka', 'Zen Maru Gothic', sans-serif;
 	font-size: 18pt;
 	width: 600pt;
 	margin: 0 auto;
 }
 
-menu {
+menu{
 	list-style-type: none;;
 	padding: 0;
 }
@@ -68,9 +68,13 @@ a{ color: #76ccee; }
     padding: 0.5em;
 }
 
+.text_in_frame{
+    font-size: 12pt;
+}
+
 /*スマホ用のスタイル*/
 
-@media (orientation: portrait) {
+@media(orientation: portrait){
     header{
         margin-top: 40pt;
         margin-bottom: 30pt;
