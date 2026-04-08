@@ -1,8 +1,17 @@
+@charset "UTF-8";
+@import url('font.css');
+
 header{
 	margin-top: 20pt;
 	margin-bottom: 20pt;
+}
+
+nav{
+    text-align: justify;
     a{
-        color: #cfcfcf;
+        text-decoration: none;
+        font-weight: bold;
+        color: #a1a1a1;
         padding: 0.5em;
     }
 }
@@ -22,25 +31,22 @@ menu {
 
 
 /*リンクのスタイル*/
-a{ 
-    text-decoration: none;
-    color: #6cc8ec;
-}
-a:before{ content: "["; }
-a:after{ content: "]"; }
+a{ color: #76ccee; }
 
-.bluesky { color: #509ccf; }
-.pixiv { color: #75bdd3; }
-.tumblr { color: #7cafb8; }
-.misskey { color: #b3ce81; }
-.soundcloud { color: #dda374; }
-.youtube { color: #d47a7a; }
-.instagram { color: #d684c2; }
-.x { color: #555555; }
+.social_links{ text-decoration: none; }
+.social_links::before{ content: "[";}
+.social_links::after{ content: "]";}
 
 
-.links_between_text:before{ content: none; }
-.links_between_text:after{ content: none; }
+.social_links.bluesky { color: #40a6eb; }
+.social_links.pixiv { color: #49bfe2; }
+.social_links.tumblr { color: #4794a1; }
+.social_links.misskey { color: #a2ce4f; }
+.social_links.soundcloud { color: #e09150; }
+.social_links.youtube { color: #d64a4a; }
+.social_links.instagram { color: #d65bb7; }
+.social_links.x { color: #3b3b3b; }
+
 
 
 .image{
@@ -49,18 +55,16 @@ a:after{ content: "]"; }
 }
 
 .nabla{
-    color: rgb(182, 87, 87);
+    color: #e77272;
     font-size: 32pt;
     padding: 0.5em;
 }
-.nabla:before{ content: none; }
-.nabla:after{ content: none; }
 
 
 .frame{
-    border: 2pt solid #555555;
+    border: 2pt solid #ebebeb;
     max-width: 600pt;
-    border-radius: 5pt;
+    border-radius: 15pt;
     padding: 0.5em;
 }
 
