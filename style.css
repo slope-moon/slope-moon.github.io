@@ -2,11 +2,11 @@
 @import url('font.css');
 
 header{
+    text-align: center;
 	margin-top: 20pt;
 	margin-bottom: 20pt;
 }
 nav{
-    text-align: justify;
     a{
         text-decoration: none;
         font-weight: bold;
@@ -53,12 +53,25 @@ a{ color: #45aed8; }
 	height: auto;
 }
 
-.nabla{
-    color: #e77272;
-    font-size: 32pt;
-    padding: 0.5em;
+.logo{
+    width: 60pt;
+    height: 60pt;
 }
 
+.rotation{
+    animation-name: rotation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotation{
+    from{
+        transform-origin: center;
+        transform: rotate(0);
+    }
+    to{ transform: rotate(360deg); }
+}
 
 .frame{
     background: #f6f9fa;
