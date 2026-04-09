@@ -48,9 +48,22 @@ a{ color: #45aed8; }
 .social_links.x { color: #505050; }
 
 
+/*画像のスタイル*/
 .image{
 	max-width: 600pt;
 	height: auto;
+}
+
+.thumbnail{
+    width: 120pt;
+    height: 120pt;
+    object-fit: cover;
+    padding: 0.2em;
+    border-radius: 12pt;
+}
+
+.gallery{
+    list-style-type: none;
 }
 
 .logo{
