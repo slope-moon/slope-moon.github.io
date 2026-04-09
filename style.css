@@ -54,17 +54,6 @@ a{ color: #45aed8; }
 	height: auto;
 }
 
-.thumbnail{
-    width: 120pt;
-    height: 120pt;
-    object-fit: cover;
-    padding: 0.2em;
-    border-radius: 12pt;
-}
-
-.gallery{
-    list-style-type: none;
-}
 
 .logo{
     width: 60pt;
