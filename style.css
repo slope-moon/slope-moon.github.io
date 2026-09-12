@@ -63,8 +63,8 @@ a{ color: #45aed8; }
 }
 
 .thumbnail{
-    width: 100pt;
-    height: 100pt;
+    width: 80pt;
+    height: 80pt;
     object-fit: cover;
 }
 
