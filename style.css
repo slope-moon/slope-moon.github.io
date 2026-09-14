@@ -66,6 +66,7 @@ a{ color: #45aed8; }
     width: 80pt;
     height: 80pt;
     object-fit: cover;
+    border-radius: 25%;
 }
 
 .screen{
